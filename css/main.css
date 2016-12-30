@@ -2322,7 +2322,7 @@ header .logo a {
 	text-align: center;
 }
 #stats .row {
-	max-width: 144px;
+	max-width: 1440px;
 }
 #stats .stat {
 	border-left: 1px solid rgba(255, 255, 255, 0.12);
@@ -2370,12 +2370,13 @@ header .logo a {
 	}
 }
 @media only screen and (max-width:600px) {
+	  #stats {
+	background: url("../images/mquote.jpg") no-repeat center center fixed;
+        }
 	#stats .stat:nth-child(n) {
 		border: none;
 	}
-        #stats {
-	background: url("../images/mquote.jpg") no-repeat center center fixed;
-        }
+      
 }
 
 
